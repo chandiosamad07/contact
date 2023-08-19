@@ -1,8 +1,8 @@
 import React from 'react'
-
+import styles from './Navigation.module.css'
 function Navigation() {
   return (
-    <nav>
+    <nav className={`${styles.navigation} container`}>
         <div className='logo'>
             <img src='/asset/logo.png' alt=''></img>
         </div>
@@ -11,8 +11,7 @@ function Navigation() {
             <li>Home</li>
             <li>About</li>
             <li>Contact</li>
-            <li>Drop</li>
-        </ul>
+        </ul> 
       
     </nav>
   )

@@ -10,20 +10,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.contaoner{
+.container{
   max-width: 1280px;
   margin: auto;
-}
-
-nav {
-  padding:0 8 px;
-  display:flex ;
-  align-items: center;
-  justify-content: space-between;
-}
-
-nav ul {
-  display: flex;
-  gap: 24px;
-  list-style-type: none;
 }
